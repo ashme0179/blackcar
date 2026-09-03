@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Main app theme -->
+    <style name="Theme.BlackCarChauffeur" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_orange</item>
+        <item name="colorPrimaryVariant">@color/brand_orange_dark</item>
+        <item name="colorOnPrimary">@color/brand_white</item>
+        <item name="colorSecondary">@color/brand_black</item>
+        <item name="colorSecondaryVariant">@color/brand_charcoal</item>
+        <item name="colorOnSecondary">@color/brand_white</item>
+        <item name="android:statusBarColor">@color/status_bar</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:navigationBarColor">@color/brand_black</item>
+        <item name="android:windowBackground">@color/brand_white</item>
+    </style>
+
+    <!-- Splash screen theme, uses AndroidX SplashScreen API -->
+    <style name="Theme.BlackCarChauffeur.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_splash</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/splash_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.BlackCarChauffeur</item>
+        <item name="android:statusBarColor">@color/splash_background</item>
+        <item name="android:navigationBarColor">@color/splash_background</item>
+    </style>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Black Car Chauffeur</string>
+    <string name="site_url">https://www.blackcarchauffeurservices.com/</string>
+    <string name="logo_content_description">Black Car Chauffeur Service logo</string>
+    <string name="no_connection_title">No Internet Connection</string>
+    <string name="no_connection_message">Please check your connection and try again.</string>
+    <string name="retry">Retry</string>
+</resources>
